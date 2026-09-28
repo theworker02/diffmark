@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/diffmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diff URLs and mark query parts with stable normalization.",
+  "bin": {
+    "diffmark": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/diffmark.git"
+  },
+  "homepage": "https://theworker02.github.io/diffmark/",
+  "keywords": [
+    "diff",
+    "mark",
+    "url",
+    "cli",
+    "toolkit"
+  ]
+}
